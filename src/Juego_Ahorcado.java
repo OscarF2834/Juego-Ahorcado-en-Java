@@ -23,11 +23,11 @@ public class Juego_Ahorcado {
 
         while (!palabraAdivinada && intentos < intentosMaximos) {
 
-<<<<<<< HEAD
+
             System.out.println("Palabra a adivinar: " + String.valueOf(letrasAdivinadas) + " " + palabraSecreta.length() + "letras");
-=======
+
             System.out.println("Palabra a adivinar: " + String.valueOf(letrasAdivinadas) + " " + palabraSecreta.length() + " letras");
->>>>>>> 88b2006 (Arreglo del readme)
+
             System.out.println("Introduce una letra por favor");
 
             char letra = Character.toLowerCase(entrada.next().charAt(0));
@@ -43,20 +43,20 @@ public class Juego_Ahorcado {
 
             if (!letraCorrecta) {
                 intentos++;
-<<<<<<< HEAD
+
                 System.out.println("Letra incorrecta, te quedan: " + (intentosMaximos - intentos) + "intentos.");
-=======
+
                 System.out.println("Letra incorrecta, te quedan: " + (intentosMaximos - intentos) + " intentos.");
->>>>>>> 88b2006 (Arreglo del readme)
+
             }
 
             if (String.valueOf(letrasAdivinadas).equals(palabraSecreta)){
                 palabraAdivinada = true;
-<<<<<<< HEAD
+
                 System.out.println("Felicidades, has adivinado la palabra secreta" + palabraSecreta);
-=======
+
                 System.out.println("Felicidades, has adivinado la palabra secreta " + palabraSecreta);
->>>>>>> 88b2006 (Arreglo del readme)
+
             }
         }
 
